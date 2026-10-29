@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LA SIRENE · Rooms in the Bulb Region</title>
+  <meta name="description" content="A small bed and breakfast in Noordwijkerhout, in the heart of the Dutch bulb fields. Quiet rooms, a generous breakfast, and bicycles at the door.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Instrument+Sans:wght@400..600&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- Accessibility: all photo slots carry a visually hidden description for screen readers. -->
+
+  <header class="site-header" data-header>
+    <div class="container header-row">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M12 3c3.6 3.2 5 6 5 9a5 5 0 0 1-10 0c0-3 1.4-5.8 5-9Z" fill="currentColor"/></svg>
+        <span>LA SIRENE</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#breakfast">Breakfast</a></li>
+          <li><a href="#area">The area</a></li>
+          <li><a href="#nearby">Nearby</a></li>
+          <li><a href="#gallery">Photos</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#guests">Guest notes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="button button-primary header-cta" href="#contact">Check availability</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="cover" aria-labelledby="cover-title">
+      <div class="cover-media" aria-hidden="true"></div>
+      <p class="cover-caption">Bulb fields, Noordwijkerhout</p>
+      <div class="container cover-content">
+        <p class="eyebrow cover-eyebrow">Bed &amp; breakfast · Noordwijkerhout</p>
+        <h1 class="cover-title" id="cover-title">
+          <span class="line"><span style="--i:0">Sleep among the</span></span>
+          <span class="line"><span style="--i:1">tulip fields.</span></span>
+        </h1>
+        <p class="cover-lead">Two quiet rooms a short bike ride from the bulb fields, the coast, and the Keukenhof gardens. Breakfast is made to order, and the kettle is always on.</p>
+        <p class="cover-price">Weekend rate: €320 for two nights, Saturday to Sunday, breakfast included. During the Keukenhof season: €180 per night.</p>
+        <div class="cover-actions">
+          <a class="button button-primary" href="#contact">Check availability</a>
+          <a class="button button-secondary cover-secondary" href="#rooms">See the rooms</a>
+          <a class="button button-secondary cover-secondary" href="#gallery">View photos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="rooms" aria-labelledby="rooms-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>The rooms</p>
+          <h2 class="section-title" id="rooms-title" data-reveal>Two rooms, each with its own character.</h2>
+          <p class="lead" data-reveal>Weekend rate: €320 for two nights, Saturday to Sunday, breakfast included. The same rooms, one fixed price.</p>
+        </header>
+        <ul class="room-list" role="list">
+          <li class="room" data-reveal style="--i:0">
+            <a class="frame room-frame room-frame-a" href="#contact" aria-label="Garden Room photo, add your own"><span class="gallery-add">Insert photo</span></a>
+            <div class="room-body">
+              <h3>The Garden Room</h3>
+              <p>Ground floor, opening onto the back garden. A queen bed, a reading chair, and a view of the tulip rows in spring.</p>
+              <p class="room-meta"><span>From €148</span> <span>Keukenhof €180 per night</span> <span>Weekend €320</span> <span>2 guests</span></p>
+              <p><a href="#contact">Ask about this room</a></p>
+            </div>
+          </li>
+          <li class="room" data-reveal style="--i:1">
+            <a class="frame room-frame room-frame-b" href="#contact" aria-label="Attic Room photo, add your own"><span class="gallery-add">Insert photo</span></a>
+            <div class="room-body">
+              <h3>The Attic Room</h3>
+              <p>Under the sloping roof, with exposed beams and a skylight. Quiet, warm, and the room guests ask about most.</p>
+              <p class="room-meta"><span>From €162</span> <span>Keukenhof €180 per night</span> <span>Weekend €320</span> <span>2 guests</span></p>
+              <p><a href="#contact">Ask about this room</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="photo-band" aria-label="The garden at dawn">
+      <div class="photo-band-media" aria-hidden="true"></div>
+      <a class="gallery-add photo-band-add" href="#contact">Insert photo</a>
+      <p class="photo-band-quote">“The first thing you smell here is coffee, and the second is the sea.”</p>
+      <p class="photo-band-caption">Noordwijk beach, twenty minutes by bike</p>
+    </section>
+
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>Photos</p>
+          <h2 class="section-title" id="gallery-title" data-reveal>A look around the house.</h2>
+        </header>
+        <ul class="gallery" role="list">
+          <li data-reveal style="--i:0"><figure class="gallery-figure"><div class="frame gallery-frame gallery-frame-a" role="img" aria-label="Tulip rows in the bulb fields"></div><figcaption>Tulip rows in spring</figcaption></figure></li>
+          <li data-reveal style="--i:1"><figure class="gallery-figure"><div class="frame gallery-frame gallery-frame-b" role="img" aria-label="Dunes and the North Sea beach"></div><figcaption>Dunes and the beach at Noordwijk</figcaption></figure></li>
+          <li data-reveal style="--i:2"><figure class="gallery-figure"><div class="frame gallery-frame gallery-frame-c" role="img" aria-label="Bicycles by the garden shed"></div><figcaption>Bicycles by the garden shed</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section agenda" id="agenda" aria-labelledby="agenda-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>Agenda</p>
+          <h2 class="section-title" id="agenda-title" data-reveal>What happens at LA SIRENE.</h2>
+          <p class="lead" data-reveal>Small gatherings through the year. Choose a day to see what is on, and tell us when you book if you would like to join.</p>
+        </header>
+        <div class="tabs" data-tabs data-reveal>
+          <div class="tab-list" role="tablist" aria-label="Agenda by day">
+            <button class="tab" type="button" role="tab" id="tab-fri" aria-controls="panel-fri" aria-selected="true">Friday</button>
+            <button class="tab" type="button" role="tab" id="tab-sat" aria-controls="panel-sat" aria-selected="false" tabindex="-1">Saturday</button>
+            <button class="tab" type="button" role="tab" id="tab-sun" aria-controls="panel-sun" aria-selected="false" tabindex="-1">Sunday</button>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-fri" aria-labelledby="tab-fri" tabindex="0">
+            <ol class="agenda-list">
+              <li><time>09:00</time><div><h3>Bicycle tour of the bulb fields</h3><p>A relaxed ride with a stop at a flower farm. Bikes included for guests.</p></div></li>
+              <li><time>18:30</time><div><h3>Welcome drinks in the garden</h3><p>Local wine and a plate of cheese for everyone staying with us.</p></div></li>
+            </ol>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-sat" aria-labelledby="tab-sat" tabindex="0" hidden>
+            <ol class="agenda-list">
+              <li><time>10:00</time><div><h3>Breakfast with the bakers</h3><p>A slow breakfast with fresh bread from the village bakery.</p></div></li>
+              <li><time>16:00</time><div><h3>Afternoon walk to the dunes</h3><p>About an hour on foot to the coast, with tea waiting on your return.</p></div></li>
+            </ol>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-sun" aria-labelledby="tab-sun" tabindex="0" hidden>
+            <ol class="agenda-list">
+              <li><time>11:00</time><div><h3>Sunday brunch, by reservation</h3><p>Eggs, Dutch cheeses, and seasonal jam, served until 13:00.</p></div></li>
+              <li><time>15:00</time><div><h3>Check-out and farewell coffee</h3><p>Leave your bags with us if your train leaves later in the evening.</p></div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="breakfast" aria-labelledby="breakfast-title">
+      <div class="container split">
+        <div class="split-text">
+          <p class="eyebrow" data-reveal>Breakfast</p>
+          <h2 class="section-title" id="breakfast-title" data-reveal>Made to order, from 7:30.</h2>
+          <p class="lead" data-reveal>Eggs from a farm down the road, Dutch cheeses, bread from the village bakery, and jam made in season. Vegetarian and dairy-free options are always ready.</p>
+          <ul class="facts" data-reveal>
+            <li><span>Served</span><span>7:30 to 10:30, weekdays and weekends</span></li>
+            <li><span>Included</span><span>Breakfast for every guest, every room</span></li>
+            <li><span>Ask for</span><span>Our tulip-season honey, bought in Hillegom</span></li>
+          </ul>
+        </div>
+        <a class="frame split-media" href="#contact" aria-label="Breakfast photo, add your own"><span class="gallery-add">Insert photo</span></a>
+      </div>
+    </section>
+
+    <section class="accent-band" aria-labelledby="area-title" id="area">
+      <div class="container">
+        <p class="eyebrow eyebrow-light" data-reveal>The area</p>
+        <h2 class="section-title section-title-light" id="area-title" data-reveal>Bicycles at the door, the beach twenty minutes away.</h2>
+        <div class="area-grid">
+          <article class="area-item" data-reveal style="--i:0">
+            <h3>Keukenhof</h3>
+            <p>Ten minutes by bike along the flower fields. Open in spring, and the best walk of the day.</p>
+          </article>
+          <article class="area-item" data-reveal style="--i:1">
+            <h3>Noordwijk aan Zee</h3>
+            <p>A twenty-minute ride to the dunes and the North Sea promenade, with a lighthouse at the far end.</p>
+          </article>
+          <article class="area-item" data-reveal style="--i:2">
+            <h3>Leiden and Haarlem</h3>
+            <p>Half an hour by train for museums, canals, and the old centres when you want a city day.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nearby" id="nearby" aria-labelledby="nearby-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>Nearby</p>
+          <h2 class="section-title" id="nearby-title" data-reveal>Places worth the trip.</h2>
+        </header>
+        <ul class="nearby-list" role="list">
+          <li data-reveal style="--i:0"><a href="https://www.keukenhof.nl/" target="_blank" rel="noopener">Keukenhof<span class="nearby-note">Spring flower gardens, open in season</span></a><a class="gallery-add nearby-photo" href="#contact">Insert photo</a></li>
+          <li data-reveal style="--i:1"><a href="https://www.iamsterdam.com/" target="_blank" rel="noopener">Amsterdam<span class="nearby-note">Canals, museums, and a day by train</span></a><a class="gallery-add nearby-photo" href="#contact">Insert photo</a></li>
+          <li data-reveal style="--i:2"><a href="https://www.noordwijk.nl/" target="_blank" rel="noopener">Noordwijk<span class="nearby-note">Beach, dunes, and the promenade</span></a></li>
+          <li data-reveal style="--i:3"><a href="https://www.denhaag.com/" target="_blank" rel="noopener">Den Haag<span class="nearby-note">Parliament, the seaside at Scheveningen</span></a></li>
+          <li data-reveal style="--i:4"><a href="https://www.zaanseschans.nl/" target="_blank" rel="noopener">Zaanse Schans<span class="nearby-note">Windmills and wooden clog workshops</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="guests" aria-labelledby="guests-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>Guest notes</p>
+          <h2 class="section-title" id="guests-title" data-reveal>Before you arrive.</h2>
+        </header>
+        <div class="faq" data-reveal>
+          <details class="faq-item" name="faq" open>
+            <summary>What time is check-in and check-out?<svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+            <div class="faq-answer"><p>Check-in is at 16:00 and check-out is at 10:00. If you arrive by train earlier, leave your bags with us and we will hold them.</p></div>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>Can I bring my bicycle?<svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+            <div class="faq-answer"><p>Yes. Bicycles can be kept in the covered shed behind the house. We also have four bikes to borrow, free of charge.</p></div>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>Do you have parking?<svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+            <div class="faq-answer"><p>There is free parking on the street in front of the house, and a car park two minutes away for longer stays.</p></div>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>Are children welcome?<svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+            <div class="faq-answer"><p>Yes, and a cot can be set up in either room on request. Just tell us the ages of your children when you book.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow" data-reveal>Contact</p>
+          <h2 class="section-title" id="contact-title" data-reveal>Ask about your dates.</h2>
+          <p class="lead" data-reveal>Send a note with your dates and the number of guests. We reply within one working day, usually the same afternoon.</p>
+          <address class="contact-details" data-reveal>
+            <p>Duinhuislaan 85<br>2212 SB Noordwijkerhout</p>
+            <p>Check-in from 16:00, check-out by 10:00.</p>
+            <p>Weekend rate: €320 for two nights, Saturday to Sunday, breakfast included.</p>
+            <p><a href="mailto:info@lasirene.com">info@lasirene.com</a><br><a href="tel:+310000000000">+31 (0)00 000 0000</a></p>
+          </address>
+        </div>
+        <form class="form" data-form novalidate>
+          <div class="field">
+            <label for="f-name">Name <span aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="field-error" id="f-name-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="f-email">Email <span aria-hidden="true">*</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" spellcheck="false" placeholder="name@example.com" required>
+            <p class="field-error" id="f-email-error" hidden></p>
+          </div>
+          <div class="booking" data-booking>
+            <p class="booking-label" id="booking-label">Choose your arrival and departure</p>
+            <div class="booking-head">
+              <button class="icon-button" type="button" data-booking-prev aria-label="Previous month">‹</button>
+              <p class="booking-month" data-booking-month aria-live="polite"></p>
+              <button class="icon-button" type="button" data-booking-next aria-label="Next month">›</button>
+            </div>
+            <div class="booking-scroll" tabindex="0" role="region" aria-label="Booking calendar, scroll horizontally on small screens">
+            <table class="booking-grid" aria-labelledby="booking-label">
+              <thead><tr><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th><th scope="col">Thu</th><th scope="col">Fri</th><th scope="col">Sat</th><th scope="col">Sun</th></tr></thead>
+              <tbody data-booking-days></tbody>
+            </table>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-dates">Dates you have in mind</label>
+            <input id="f-dates" name="dates" type="text" placeholder="Pick dates above, or type them here">
+          </div>
+          <div class="field">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" rows="4"></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Send inquiry</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p class="footer-brand">LA SIRENE</p>
+      <p>Duinhuislaan 85, 2212 SB Noordwijkerhout · <a href="mailto:info@lasirene.com">info@lasirene.com</a></p>
+      <p class="footer-small">© 2026 LA SIRENE</p>
+    </div>
+  </footer>
+</body>
+</html>
